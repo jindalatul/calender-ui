@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>  
+	
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	
+	<script type="text/javascript" src="http://www.bootstrap-year-calendar.com/download/v1.1.0/bootstrap-year-calendar.min.js"></script> 
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://www.bootstrap-year-calendar.com/download/v1.1.0/bootstrap-year-calendar.css">
+	<link rel="stylesheet" type="text/css" href="mystyle.css" />
+ 
+	</head>
+<body>
+<form id="main-form">
+	<label for="daterange">Select Date Range</label>
+	<input type="text" class="form-control daterange" id="daterange" name="daterange" value="" />
+	
+	<label for="rate">Rate</label>
+	<input type="number" class="form-control rate" name="rate" id="rate" value="" required />
+	
+	<input type="hidden" name="start" id="start" />
+	<input type="hidden" name="end" id="end" />
+	
+	<button id="add-price" type="button" class="btn btn-primary">Add Price</button>
+	<div id="info-box"></div>
+</form>
+
+<div id="calendar"></div>
+</body>
+<script language="javaScript" src="myscript.js"></script>
+</html>

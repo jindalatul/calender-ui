@@ -1,0 +1,32 @@
+		.calendar
+		{
+		overflow:hidden;
+		}
+		.daterange
+		{
+			width:200px;
+			display:inline;
+		}
+		
+		.rate
+		{
+			width:100px;
+			display:inline;
+		}
+		
+		#main-form
+		{	
+			padding:30px;
+			height:150px;
+		}
+		.rates-legend
+		{
+		font-size:14px;
+		font-weight:bold;
+		color:#FFFFFF;
+		padding:15px;
+		width:200px;
+		height:50px;
+		float:right;
+		margin-right:10px;
+		}
